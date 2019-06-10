@@ -37,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="gn-scroller scrollbar1">
 							<ul class="gn-menu agile_menu_drop">
 								<li>
-									<a href="privilege.html"> <i class="fa fa-suitcase" aria-hidden="true"></i>Privilege <i class="fa fa-angle-down" aria-hidden="true"> </i></a> 
+									<a href="privilege.html"> <i class="fa fa-indent" aria-hidden="true"></i>Privilege <i class="fa fa-angle-down" aria-hidden="true"> </i></a> 
 											<ul class="gn-submenu">
 												<li class="mini_list_agile"> <a href="pri_editor.html"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editor</a></li>
 											</ul> 
@@ -177,7 +177,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				<li class="second w3l_search">
 				 
-						<form action="#" method="post">
+						<form action="#" >
 							<input type="search" name="search" placeholder="Search here..." required="">
 							<button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                         </form>
@@ -204,7 +204,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="row blog-entries">
                     <div class="col-md-12 col-lg-8 main-content">
                       
-                      <form action="blogpost.html" method="post">
+                      <form action="blogpost.html">
                             <div class="row">
                               <div class="col-md-12 form-group">
                                 <label for="name">Title<span class="required">*</span></label>
@@ -212,9 +212,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                
                               </div>
                               <div class="col-md-12 form-group">
-                                <label for="phone">Categories<span class="required">*</span></label>
-                              
-                                <input type="text" id="name" value = "Technology" class="form-control ">
+                                <label for="phone">Categories<span class="required">*</span></label> <br>
+								<select>
+									<option value="0">--Choose a category--</option>
+									<option value="Discovery">Discovery</option>
+									<option value="ICT News">ICT News</option>
+									<option value="Internet">Internet</option>
+								 </select>
                               </div>
                               <div class="col-md-12 form-group">
                                 <label for="email">Tags</label>
@@ -237,10 +241,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <a href="savepost.html" onclick="return confirm('A new post has been saved successfully.');"> <button class="btn btn-info btn-sm btn-flat desc" >Save</button></a>
                               &nbsp;&nbsp;&nbsp;
                               
-                            <a href="viewpost1.html" onclick="return confirm('Are you sure you want to cancel.');"> <button class="btn btn-danger btn-sm delete btn-flat">Cancel</button></a>
+                            <a href="blogpost.html" onclick="return confirm('Are you sure you want to cancel?');"> <button class="btn btn-danger btn-sm delete btn-flat">Cancel</button></a>
           					&nbsp;&nbsp;&nbsp;
 		
-
+							</form>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
 	
